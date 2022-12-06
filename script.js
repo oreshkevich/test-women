@@ -5,3 +5,15 @@ $(window).scroll(function () {
   if (scroll >= 600) sticky.addClass('fixed');
   else sticky.removeClass('fixed');
 });
+
+$('.js-scroll-trigger').click(function () {
+  var scrollName = $(this).attr('data-scroll'),
+    scrollElem = $(scrollName),
+    scrollTop = scrollElem.offset().top;
+  $('html, body').animate(
+    {
+      scrollTop: scrollTop,
+    },
+    600
+  );
+});
