@@ -1,0 +1,581 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  position: relative;
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+  object-fit: cover;
+  background-color: #000;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+button {
+  padding: 0;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.container {
+  max-width: 1270px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Oranienbaum', sans-serif;
+}
+
+.wrapper {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.wrapper>main {
+  flex: 1 1 auto;
+}
+
+.wrapper>* {
+  min-width: 0;
+}
+
+.text-white a {
+  color: #fff;
+}
+
+.instagram:hover {
+  color: #6fc4d4;
+}
+
+.facebook:hover {
+  color: #6fc4d4;
+}
+
+.social {
+  padding-right: 42px;
+}
+
+.tel {
+  display: flex;
+  flex-direction: column;
+}
+
+.tel a:first-child {
+  margin-left: 10px;
+}
+
+.navbar-nav li a {
+  font-family: Oranienbaum, serif;
+}
+
+.our-mission span {
+  font-size: 16px;
+  color: #cdb380;
+  text-decoration: underline;
+  display: block;
+}
+
+.mission {
+  background-image: url(../assets/img/bg-main.png);
+  background-repeat: no-repeat;
+  min-height: 660px;
+  position: relative;
+  background-position: 45% 42%;
+}
+
+.our-mission {
+  font-family: 'Oranienbaum', serif;
+  font-size: 21px;
+  margin-top: 192px;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.social .vk {
+  background-image: url(../assets/img/1438423986_vk_3.png);
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.social .vk:hover {
+  background-position: 0 -25px;
+}
+
+.social .facebook {
+  background-image: url(../assets/img/1438557245_ab_4.png);
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.social .facebook:hover {
+  background-position: 0 -25px;
+}
+
+.social .instagram {
+  background-image: url(../assets/img/1438557260_inst_4.png);
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.social .instagram:hover {
+  background-position: 0 -25px;
+}
+
+.logo img {
+  display: none;
+}
+
+.container_main {
+  background-color: #FFF;
+  border-color: #000000;
+  padding: 0;
+}
+
+.help__table {
+  margin-top: 40px;
+}
+
+.help__wrapper {
+  padding-top: 40px;
+  text-align: center;
+  max-width: 1020px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.help__title {
+  padding-bottom: 20px;
+}
+
+.help__text {
+  padding-bottom: 10px;
+}
+
+.help__text-img {
+  text-align: center;
+  font-size: 14px;
+  margin-bottom: 30px;
+  margin-top: 0;
+  border-top: 1px dashed #cecece;
+  padding: 5px 10px;
+  color: #7b7b7b;
+}
+
+.help__description {
+  max-width: 640px;
+  display: block;
+  margin: 0 auto;
+}
+
+.help__description p {
+  padding-top: 20px;
+  line-height: 26px;
+}
+
+.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+.bg-dark {
+  background-color: #000 !important;
+}
+
+.table-bordered {
+  border: 1px solid #ddd;
+}
+
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 21px;
+}
+
+table.yellow tr td {
+  padding: 15px 20px 15px 40px;
+  border: 2px solid #fdc300;
+}
+
+table.yellow tr.th td {
+  background-color: #ffd100;
+  font-size: 26px;
+}
+
+table.yellow {
+  background-color: #fff000;
+  margin: 0 auto;
+}
+
+.codes a {
+  padding: 5px 10px;
+  font-size: 18px;
+  border: 1px solid #000;
+  color: #000;
+}
+
+.order-button {
+  background-color: #000000;
+  font-size: 18px;
+  text-transform: uppercase;
+  padding: 12px;
+  font-weight: 700;
+  border-radius: 3px;
+  display: inline-block;
+  margin: 30px auto 0;
+  width: 150px;
+  color: #fff;
+}
+
+i {
+  font-size: 32px;
+}
+
+table.yellow tr td:nth-child(1n+2) {
+  text-align: center;
+  padding: 15px;
+  width: 180px;
+}
+
+table.yellow tr td span {
+  font-size: 16px;
+  display: block;
+}
+
+table.yellow span.price,
+table.yellow span.symbol {
+  font-size: 32px;
+  display: inline-block;
+}
+
+.help__books {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.help__books-img {
+  opacity: 1;
+  object-fit: cover;
+}
+
+/* .card-deck .card {
+  margin-right: 36px;
+  margin-left: 36px;
+} */
+.card-weight {
+  font-weight: 700;
+}
+
+.btn-order a {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+
+.card-body {
+  padding: 2.25rem;
+}
+
+.old-price {
+  position: relative;
+  color: #7f94a1;
+}
+
+.old-price:before {
+  border-bottom: 2px solid red;
+  position: absolute;
+  content: "";
+  width: 21%;
+  height: 33%;
+  transform: rotate(-12deg);
+}
+
+.card {
+  border: 2px solid rgba(0, 0, 0, .2);
+}
+
+.friends-card {}
+
+.shadow-card:hover {
+  box-shadow: 0 14px 28px rgb(0 0 0 / 25%), 0 10px 10px rgb(0 0 0 / 22%);
+}
+
+.section__card {
+  padding-bottom: 50px;
+}
+
+.description {
+  padding-bottom: 30px;
+}
+
+.gallery {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+a.a-top,
+a.a-top:visited {
+  background-color: #000;
+  border-color: #FFF;
+  color: #FFF;
+}
+
+.footer {
+  margin-bottom: 15px;
+  padding: 40px 0;
+}
+
+.footer__btn {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.footer__btn a {
+  border: 1px solid;
+  padding: 8px 10px;
+  font-size: 14px;
+  transition: all .3s ease-out;
+}
+
+.footer__btn a:hover {
+  text-decoration: auto;
+  background-color: #FFF;
+  color: #000;
+}
+
+.footer__btn i {
+  font-size: 14px;
+}
+
+.footer-text {
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.footer-text a {
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.footer-text a:hover {
+  color: #6fc4d4;
+}
+
+@media (max-width: 1100px) {
+  .card-deck .card {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+}
+
+@media (max-width: 992px) {
+  table.yellow tr td {
+    padding: 10px;
+    font-size: 15px;
+  }
+
+  table.yellow span.price,
+  table.yellow span.symbol {
+    font-size: 26px;
+  }
+
+  table.yellow tr td:nth-child(1n+2) {
+    width: 135px;
+    padding: 6px;
+  }
+
+  .order-button {
+    font-size: 14px;
+    width: 105px;
+  }
+
+  table.yellow tr.th td {
+    font-size: 18px;
+  }
+
+  .logo img {
+    display: block;
+    width: 170px;
+  }
+
+  .our-mission img {
+    display: none;
+  }
+
+  .mission {
+    min-height: 516px;
+    background-size: cover;
+  }
+}
+
+@media (max-width: 820px) {
+  .card-deck .card {
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+
+  .old-price:before {
+    width: 30%;
+  }
+}
+
+@media (max-width: 767px) {
+  .old-price:before {
+    width: 9%;
+  }
+}
+
+@media (max-width: 630px) {
+  .old-price:before {
+    width: 11%;
+  }
+
+  .mission {
+    min-height: 450px;
+    background-size: cover;
+  }
+
+  table.yellow span.price,
+  table.yellow span.symbol {
+    font-size: 20px;
+  }
+
+  table.yellow tr td a {
+    width: 75px;
+    font-size: 12px;
+  }
+
+  table.yellow tr.th td {
+    font-size: 15px;
+  }
+
+  table.yellow tr td:nth-child(1n+2) {
+    width: auto;
+    min-width: 90px;
+  }
+
+  .codes a {
+    font-size: 14px;
+    padding: 5px 10px;
+  }
+
+  table.yellow tr td span {
+    font-size: 12px;
+  }
+
+  i {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 576px) {
+  .gallery__item {
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 558px) {
+  .old-price:before {
+    width: 15%;
+  }
+}
+
+@media (max-width: 440px) {
+  .mission {
+    background-size: cover;
+    min-height: 250px;
+  }
+
+  table.yellow tr.th td {
+    font-size: 12px;
+  }
+
+  table.yellow tr td {
+    padding: 3px;
+    font-size: 12px;
+  }
+
+  table.yellow span.price,
+  table.yellow span.symbol {
+    font-size: 14px;
+  }
+
+  table.yellow tr td:nth-child(1n+2) {
+    width: 75px;
+    min-width: 75px;
+  }
+
+  .order-button {
+    font-size: 10px;
+    padding: 12px 6px;
+    width: 60px;
+  }
+}
+
+@media (max-width: 380px) {
+  .order-button {
+    font-size: 10px;
+    padding: 9px 0px;
+    width: 60px;
+  }
+}
