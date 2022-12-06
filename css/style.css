@@ -205,7 +205,7 @@ h3 {
   position: absolute;
   top: 34px;
   left: -30px;
-  width: 165px;
+  width: 172px;
   background-color: #ad2615;
   transform: rotate(318deg);
   color: #fff;
@@ -545,6 +545,11 @@ table.yellow span.symbol {
 @media (max-width: 558px) {
   .old-price:before {
     width: 15%;
+  }
+
+  .help::before {
+    top: 17px;
+    left: -51px;
   }
 }
 
