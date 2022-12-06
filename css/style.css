@@ -401,6 +401,7 @@ table.yellow span.symbol {
   padding: 8px 10px;
   font-size: 14px;
   transition: all .3s ease-out;
+  color: #fff;
 }
 
 .footer__btn a:hover {
