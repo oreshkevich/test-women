@@ -7,7 +7,7 @@ $(window).scroll(function () {
 });
 
 $('.js-scroll-trigger').click(function () {
-  var scrollName = $(this).attr('data-scroll'),
+  const scrollName = $(this).attr('data-scroll'),
     scrollElem = $(scrollName),
     scrollTop = scrollElem.offset().top;
   $('html, body').animate(
