@@ -201,7 +201,7 @@ h3 {
 }
 
 .help::before {
-  content: "новинки";
+  content: "Новинка";
   position: absolute;
   top: 34px;
   left: -30px;
