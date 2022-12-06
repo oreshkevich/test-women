@@ -188,11 +188,28 @@ h3 {
 }
 
 .help__wrapper {
-  padding-top: 40px;
+  padding-top: 61px;
   text-align: center;
   max-width: 1020px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.help {
+  position: relative;
+  overflow: hidden;
+}
+
+.help::before {
+  content: "новинки";
+  position: absolute;
+  top: 34px;
+  left: -30px;
+  width: 165px;
+  background-color: #ad2615;
+  transform: rotate(318deg);
+  color: #fff;
+  text-align: center;
 }
 
 .help__title {
@@ -200,7 +217,7 @@ h3 {
 }
 
 .help__text {
-  padding-bottom: 10px;
+  padding-bottom: 30px;
 }
 
 .help__text-img {
@@ -316,10 +333,6 @@ table.yellow span.symbol {
   object-fit: cover;
 }
 
-/* .card-deck .card {
-  margin-right: 36px;
-  margin-left: 36px;
-} */
 .card-weight {
   font-weight: 700;
 }
@@ -352,8 +365,6 @@ table.yellow span.symbol {
   border: 2px solid rgba(0, 0, 0, .2);
 }
 
-.friends-card {}
-
 .shadow-card:hover {
   box-shadow: 0 14px 28px rgb(0 0 0 / 25%), 0 10px 10px rgb(0 0 0 / 22%);
 }
@@ -371,11 +382,8 @@ table.yellow span.symbol {
   margin-bottom: 30px;
 }
 
-a.a-top,
-a.a-top:visited {
-  background-color: #000;
-  border-color: #FFF;
-  color: #FFF;
+.help__img-item {
+  width: 100%;
 }
 
 .footer {
